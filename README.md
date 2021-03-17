@@ -12,10 +12,6 @@ OpenCV is a library of programming functions mainly aimed at real-time computer 
 Django is a Python-based free and open-source web framework that follows the model-template-views architectural pattern. It is maintained by the Django Software Foundation, an American independent organization established as a 501 non-profit.
 
 # Main tools used: 
-opencv
-django
-numpy
-keras
-jupyter notebook
+opencv : django : numpy : keras : jupyter notebook
 
 [![HitCount](http://hits.dwyl.com/IT115-G1-A5/https://githubcom/olassia/IT115-G1-A5.svg)](http://hits.dwyl.com/IT115-G1-A5/https://githubcom/olassia/IT115-G1-A5)<br>
