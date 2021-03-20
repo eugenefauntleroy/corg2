@@ -5,6 +5,7 @@ import numpy as np
 from io import BytesIO
 from django.core.files.base import ContentFile
 
+
 # Create your models here.
 ACTION_CHOICES= (
     ('NO_FILTER', 'no filter'),
@@ -44,3 +45,15 @@ class Upload(models.Model):
         self.image.save(str(self.image), ContentFile(image_png), save=False)
 
         super().save(*args, **kwargs)
+
+class notes(models.Model):
+    noteskey = models.IntegerField(primary_key=True)
+    notesname = models.CharField(max_length=20)
+    id = models.CharField(max_length=5)
+    notesdate = models.DateTimeField()
+
+    def __str__(self):
+        return self.notesname
+    
+    class Meta:
+        db_table = 'notes'
