@@ -18,14 +18,12 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import settings
 from django.conf.urls.static import static
-from . import views
+from uploads.views import index
 
 urlpatterns = [
-    path('', views.index, name='index'),
-]
-
-urlpatterns = [
+    path('uploads/', index, name='index'), 
     path('admin/', admin.site.urls),
+
 ]
 
 urlpatterns += static(
