@@ -14,4 +14,3 @@ Django is a Python-based free and open-source web framework that follows the mod
 # Main tools used: 
 opencv : django : numpy : keras : jupyter notebook
 
-[![HitCount](http://hits.dwyl.com/IT115-G1-A5/https://githubcom/olassia/IT115-G1-A5.svg)](http://hits.dwyl.com/IT115-G1-A5/https://githubcom/olassia/IT115-G1-A5)<br>
