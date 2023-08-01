@@ -80,7 +80,3 @@ To contribute to this project, follow these steps:
 ## Contact
 
 If you want to contact the project owner, you can reach Eugene Fauntleroy at `iwata.mich@gmail.com`.
-
----
-
-Please note that you'll need to replace the email address with the actual email address of the project owner. Also, the instructions for contributing to the project are quite generic, so you might want to adjust them according to the project's actual contribution guidelines.
